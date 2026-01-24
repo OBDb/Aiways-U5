@@ -4,5 +4,10 @@ references:
 generations:
   - name: "First Generation"
     start_year: 2019
+    end_year: 2020
+    description: "The Aiways U5 is the first production model from Chinese electric vehicle startup Aiways. This all-electric compact SUV features a 63 kWh battery pack delivering approximately 400 km (250 miles) of range on the WLTP cycle. Powered by a single electric motor producing 150 kW (201 HP) and 310 Nm of torque, the U5 combines modern styling with practical interior space and contemporary technology. It was one of the first Chinese-made electric vehicles to be widely exported to European markets, beginning in 2020. The U5 features a minimalist interior with a large central touchscreen (12.3 inches), advanced driver assistance systems, and fast-charging capability that can replenish the battery from 30% to 80% in approximately 27-30 minutes."
+
+  - name: "First Generation (2021 Facelift)"
+    start_year: 2021
     end_year: 2023
-    description: "The Aiways U5 is the first production model from Chinese electric vehicle startup Aiways. This all-electric compact SUV features a 63 kWh battery pack delivering approximately 400 km (250 miles) of range on the WLTP cycle. Powered by a single electric motor producing 150 kW (201 HP) and 310 Nm of torque, the U5 combines modern styling with practical interior space and contemporary technology. It was one of the first Chinese-made electric vehicles to be widely exported to European markets, beginning in 2020. The U5 features a minimalist interior with a large central touchscreen (12.3 inches), advanced driver assistance systems, and fast-charging capability that can replenish the battery from 30% to 80% in approximately 27-30 minutes. The exterior styling received an update in 2021 although the dimensions remained the same."
+    description: "A styling and technology refresh of the first generation U5. The exterior styling received an update in 2021 although the dimensions remained the same. The platform, battery capacity, and electric motor remained unchanged from the pre-facelift model. The facelift included visual updates to the headlights, grille, and body panels while maintaining the same 63 kWh battery and 150 kW motor specifications."
