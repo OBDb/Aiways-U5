@@ -1,0 +1,8 @@
+command_id: 704.22200F
+test_cases:
+- expected_values:
+    AIWAYS_CMD_SPEED: 200
+  response: '70C 05 62 20 0F 00 C8'
+- expected_values:
+    AIWAYS_CMD_SPEED: -100
+  response: '70C 05 62 20 0F FF 9C'

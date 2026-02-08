@@ -1,0 +1,8 @@
+command_id: 703.22DF00
+test_cases:
+- expected_values:
+    AIWAYS_VEH_SPEED: 90.0
+  response: '70B 05 62 DF 00 06 40'
+- expected_values:
+    AIWAYS_VEH_SPEED: 0.0
+  response: '70B 05 62 DF 00 00 00'

@@ -1,0 +1,8 @@
+command_id: 703.221006
+test_cases:
+- expected_values:
+    AIWAYS_DISP_SOC: 80
+  response: '70B 04 62 10 06 50'
+- expected_values:
+    AIWAYS_DISP_SOC: 100
+  response: '70B 04 62 10 06 64'

@@ -1,0 +1,8 @@
+command_id: 703.221003
+test_cases:
+- expected_values:
+    AIWAYS_MAX_CELL_T: 30
+  response: '70B 04 62 10 03 46'
+- expected_values:
+    AIWAYS_MAX_CELL_T: 40
+  response: '70B 04 62 10 03 50'

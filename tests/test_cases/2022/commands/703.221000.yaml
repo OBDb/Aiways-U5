@@ -1,0 +1,8 @@
+command_id: 703.221000
+test_cases:
+- expected_values:
+    AIWAYS_MIN_CELL_V: 4.6
+  response: '70B 05 62 10 00 0E 10'
+- expected_values:
+    AIWAYS_MIN_CELL_V: 1.0
+  response: '70B 05 62 10 00 00 00'

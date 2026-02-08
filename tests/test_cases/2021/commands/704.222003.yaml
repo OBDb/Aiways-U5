@@ -1,0 +1,8 @@
+command_id: 704.222003
+test_cases:
+- expected_values:
+    AIWAYS_MOTOR_RPM: 7500
+  response: '70C 05 62 20 03 1D 4C'
+- expected_values:
+    AIWAYS_MOTOR_RPM: -200
+  response: '70C 05 62 20 03 FF 38'

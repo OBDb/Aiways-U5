@@ -1,0 +1,8 @@
+command_id: 703.221004
+test_cases:
+- expected_values:
+    AIWAYS_HV_V: 380.0
+  response: '70B 05 62 10 04 0E D8'
+- expected_values:
+    AIWAYS_HV_V: 390.0
+  response: '70B 05 62 10 04 0F 3C'

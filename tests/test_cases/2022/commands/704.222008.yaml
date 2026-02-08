@@ -1,0 +1,8 @@
+command_id: 704.222008
+test_cases:
+- expected_values:
+    AIWAYS_MCU_T1: 60.0
+  response: '70C 05 62 20 08 0F 00'
+- expected_values:
+    AIWAYS_MCU_T1: 100.0
+  response: '70C 05 62 20 08 19 00'

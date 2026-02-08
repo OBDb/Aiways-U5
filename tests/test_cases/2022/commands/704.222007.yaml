@@ -1,0 +1,8 @@
+command_id: 704.222007
+test_cases:
+- expected_values:
+    AIWAYS_STATOR_T: 112.0
+  response: '70C 05 62 20 07 1C 00'
+- expected_values:
+    AIWAYS_STATOR_T: 0.0
+  response: '70C 05 62 20 07 00 00'
