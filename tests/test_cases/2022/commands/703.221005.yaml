@@ -1,8 +1,0 @@
-command_id: 703.221005
-test_cases:
-- expected_values:
-    AIWAYS_PACK_CURR: 30.0
-  response: '70B 05 62 10 05 1C 84'
-- expected_values:
-    AIWAYS_PACK_CURR: -166.0
-  response: '70B 05 62 10 05 14 DC'

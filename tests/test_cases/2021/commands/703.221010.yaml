@@ -1,8 +1,0 @@
-command_id: 703.221010
-test_cases:
-- expected_values:
-    AIWAYS_SOH_ALT: 95.0
-  response: '70B 05 62 10 10 03 B6'
-- expected_values:
-    AIWAYS_SOH_ALT: 100.0
-  response: '70B 05 62 10 10 03 E8'

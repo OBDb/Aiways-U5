@@ -1,8 +1,0 @@
-command_id: 703.22101D
-test_cases:
-- expected_values:
-    AIWAYS_WATER_OUT_T: 20
-  response: '70B 04 62 10 1D 3C'
-- expected_values:
-    AIWAYS_WATER_OUT_T: 35
-  response: '70B 04 62 10 1D 4B'

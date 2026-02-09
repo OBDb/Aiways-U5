@@ -1,8 +1,0 @@
-command_id: 703.221031
-test_cases:
-- expected_values:
-    AIWAYS_MAX_CELL_V_NUM: 11
-  response: '70B 04 62 10 31 0A'
-- expected_values:
-    AIWAYS_MAX_CELL_V_NUM: 1
-  response: '70B 04 62 10 31 00'

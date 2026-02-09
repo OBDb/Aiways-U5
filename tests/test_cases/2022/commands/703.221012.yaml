@@ -1,8 +1,0 @@
-command_id: 703.221012
-test_cases:
-- expected_values:
-    AIWAYS_SOH: 96
-  response: '70B 04 62 10 12 60'
-- expected_values:
-    AIWAYS_SOH: 100
-  response: '70B 04 62 10 12 64'

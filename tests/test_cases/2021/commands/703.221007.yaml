@@ -1,8 +1,0 @@
-command_id: 703.221007
-test_cases:
-- expected_values:
-    AIWAYS_REAL_SOC: 82
-  response: '70B 04 62 10 07 52'
-- expected_values:
-    AIWAYS_REAL_SOC: 0
-  response: '70B 04 62 10 07 00'

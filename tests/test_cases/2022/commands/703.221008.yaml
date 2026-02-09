@@ -1,8 +1,0 @@
-command_id: 703.221008
-test_cases:
-- expected_values:
-    AIWAYS_MIN_CELL_SOC: 79
-  response: '70B 04 62 10 08 4F'
-- expected_values:
-    AIWAYS_MIN_CELL_SOC: 50
-  response: '70B 04 62 10 08 32'

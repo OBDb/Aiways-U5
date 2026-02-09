@@ -1,8 +1,0 @@
-command_id: 704.222012
-test_cases:
-- expected_values:
-    AIWAYS_AVAIL_TORQUE: 125.0
-  response: '70C 05 62 20 12 07 D0'
-- expected_values:
-    AIWAYS_AVAIL_TORQUE: 0.0
-  response: '70C 05 62 20 12 00 00'

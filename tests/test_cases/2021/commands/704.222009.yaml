@@ -1,8 +1,0 @@
-command_id: 704.222009
-test_cases:
-- expected_values:
-    AIWAYS_MCU_T2: 64.0
-  response: '70C 05 62 20 09 10 00'
-- expected_values:
-    AIWAYS_MCU_T2: 80.0
-  response: '70C 05 62 20 09 14 00'

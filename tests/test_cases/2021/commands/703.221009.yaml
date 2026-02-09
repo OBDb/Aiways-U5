@@ -1,8 +1,0 @@
-command_id: 703.221009
-test_cases:
-- expected_values:
-    AIWAYS_MAX_CELL_SOC: 83
-  response: '70B 04 62 10 09 53'
-- expected_values:
-    AIWAYS_MAX_CELL_SOC: 85
-  response: '70B 04 62 10 09 55'

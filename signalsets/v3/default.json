@@ -1,342 +1,116 @@
-{
-  "commands": [
-    {
-      "hdr": "703",
-      "cmd": { "22": "1000" },
-      "freq": 1,
-      "signals": [
-        {
-          "id": "AIWAYS_MIN_CELL_V",
-          "path": "Battery.Cells",
-          "fmt": { "len": 16, "max": 5, "min": 0, "div": 1000, "add": 1, "unit": "volts" },
-          "name": "Min cell voltage"
-        }
-      ]
-    },
-    {
-      "hdr": "703",
-      "cmd": { "22": "1001" },
-      "freq": 1,
-      "signals": [
-        {
-          "id": "AIWAYS_MAX_CELL_V",
-          "path": "Battery.Cells",
-          "fmt": { "len": 16, "max": 5, "min": 0, "div": 1000, "add": 1, "unit": "volts" },
-          "name": "Max cell voltage"
-        }
-      ]
-    },
-    {
-      "hdr": "703",
-      "cmd": { "22": "1002" },
-      "freq": 5,
-      "signals": [
-        {
-          "id": "AIWAYS_MIN_CELL_T",
-          "path": "Battery.Cells",
-          "fmt": { "len": 8, "max": 100, "min": -40, "add": -40, "unit": "celsius" },
-          "name": "Min cell temperature"
-        }
-      ]
-    },
-    {
-      "hdr": "703",
-      "cmd": { "22": "1003" },
-      "freq": 5,
-      "signals": [
-        {
-          "id": "AIWAYS_MAX_CELL_T",
-          "path": "Battery.Cells",
-          "fmt": { "len": 8, "max": 80, "min": -40, "add": -40, "unit": "celsius" },
-          "name": "Max cell temperature"
-        }
-      ]
-    },
-    {
-      "hdr": "703",
-      "cmd": { "22": "1004" },
-      "freq": 1,
-      "signals": [
-        {
-          "id": "AIWAYS_HV_V",
-          "path": "Battery",
-          "fmt": { "len": 16, "max": 500, "min": 0, "div": 10, "unit": "volts" },
-          "name": "Battery pack voltage"
-        }
-      ]
-    },
-    {
-      "hdr": "703",
-      "cmd": { "22": "1005" },
-      "freq": 1,
-      "signals": [
-        {
-          "id": "AIWAYS_PACK_CURR",
-          "path": "Battery",
-          "fmt": { "len": 16, "max": 500, "min": -500, "div": 10, "add": -700, "unit": "amps" },
-          "name": "Battery pack current"
-        }
-      ]
-    },
-    {
-      "hdr": "703",
-      "cmd": { "22": "1006" },
-      "freq": 1,
-      "signals": [
-        {
-          "id": "AIWAYS_DISP_SOC",
-          "path": "Battery",
-          "fmt": { "len": 8, "max": 100, "min": 0, "unit": "percent" },
-          "name": "Battery displayed SoC"
-        }
-      ]
-    },
-    {
-      "hdr": "703",
-      "cmd": { "22": "1007" },
-      "freq": 1,
-      "signals": [
-        {
-          "id": "AIWAYS_REAL_SOC",
-          "path": "Battery",
-          "fmt": { "len": 8, "max": 100, "min": 0, "unit": "percent" },
-          "name": "Battery actual SoC"
-        }
-      ]
-    },
-    {
-      "hdr": "703",
-      "cmd": { "22": "1008" },
-      "freq": 1,
-      "signals": [
-        {
-          "id": "AIWAYS_MIN_CELL_SOC",
-          "path": "Battery.Cells",
-          "fmt": { "len": 8, "max": 100, "min": 0, "unit": "percent" },
-          "name": "Min cell SoC"
-        }
-      ]
-    },
-    {
-      "hdr": "703",
-      "cmd": { "22": "1009" },
-      "freq": 1,
-      "signals": [
-        {
-          "id": "AIWAYS_MAX_CELL_SOC",
-          "path": "Battery.Cells",
-          "fmt": { "len": 8, "max": 100, "min": 0, "unit": "percent" },
-          "name": "Max cell SoC"
-        }
-      ]
-    },
-    {
-      "hdr": "703",
-      "cmd": { "22": "1010" },
-      "freq": 3600,
-      "signals": [
-        {
-          "id": "AIWAYS_SOH_ALT",
-          "path": "Battery",
-          "fmt": { "len": 16, "max": 100, "min": 0, "div": 10, "unit": "percent" },
-          "name": "Battery SoH alternative"
-        }
-      ]
-    },
-    {
-      "hdr": "703",
-      "cmd": { "22": "1012" },
-      "freq": 3600,
-      "signals": [
-        {
-          "id": "AIWAYS_SOH",
-          "path": "Battery",
-          "fmt": { "len": 8, "max": 100, "min": 0, "unit": "percent" },
-          "name": "Battery SoH"
-        }
-      ]
-    },
-    {
-      "hdr": "703",
-      "cmd": { "22": "1020" },
-      "freq": 60,
-      "signals": [
-        {
-          "id": "AIWAYS_ISO_RES",
-          "path": "Battery",
-          "fmt": { "len": 16, "max": 10000, "min": 0, "unit": "kiloohms" },
-          "name": "Insulation resistance"
-        }
-      ]
-    },
-    {
-      "hdr": "703",
-      "cmd": { "22": "101C" },
-      "freq": 5,
-      "signals": [
-        {
-          "id": "AIWAYS_WATER_IN_T",
-          "path": "Battery",
-          "fmt": { "len": 8, "max": 100, "min": -40, "add": -40, "unit": "celsius" },
-          "name": "Water inlet temperature"
-        }
-      ]
-    },
-    {
-      "hdr": "703",
-      "cmd": { "22": "101D" },
-      "freq": 5,
-      "signals": [
-        {
-          "id": "AIWAYS_WATER_OUT_T",
-          "path": "Battery",
-          "fmt": { "len": 8, "max": 100, "min": -40, "add": -40, "unit": "celsius" },
-          "name": "Water outlet temperature"
-        }
-      ]
-    },
-    {
-      "hdr": "703",
-      "cmd": { "22": "1031" },
-      "freq": 1,
-      "signals": [
-        {
-          "id": "AIWAYS_MAX_CELL_V_NUM",
-          "path": "Battery.Cells",
-          "fmt": { "len": 8, "max": 96, "min": 0, "add": 1, "unit": "scalar" },
-          "name": "Max cell voltage number"
-        }
-      ]
-    },
-    {
-      "hdr": "703",
-      "cmd": { "22": "DF00" },
-      "freq": 1,
-      "signals": [
-        {
-          "id": "AIWAYS_VEH_SPEED",
-          "path": "Movement",
-          "fmt": { "len": 16, "max": 200, "min": 0, "mul": 9, "div": 160, "unit": "kilometersPerHour" },
-          "name": "Vehicle speed"
-        }
-      ]
-    },
-    {
-      "hdr": "703",
-      "cmd": { "22": "DF05" },
-      "freq": 3600,
-      "signals": [
-        {
-          "id": "AIWAYS_ODO",
-          "path": "Stats",
-          "fmt": { "len": 24, "max": 1000000, "min": 0, "div": 10, "unit": "kilometers" },
-          "name": "Accumulated mileage"
-        }
-      ]
-    },
-    {
-      "hdr": "704",
-      "cmd": { "22": "2003" },
-      "freq": 1,
-      "signals": [
-        {
-          "id": "AIWAYS_MOTOR_RPM",
-          "path": "Drivetrain",
-          "fmt": { "len": 16, "max": 15000, "min": -15000, "sign": true, "unit": "rpm" },
-          "name": "Actual motor speed"
-        }
-      ]
-    },
-    {
-      "hdr": "704",
-      "cmd": { "22": "2004" },
-      "freq": 1,
-      "signals": [
-        {
-          "id": "AIWAYS_TORQUE",
-          "path": "Drivetrain",
-          "fmt": { "len": 16, "max": 500, "min": -500, "sign": true, "div": 16, "unit": "newtonMeters" },
-          "name": "Torque"
-        }
-      ]
-    },
-    {
-      "hdr": "704",
-      "cmd": { "22": "2007" },
-      "freq": 5,
-      "signals": [
-        {
-          "id": "AIWAYS_STATOR_T",
-          "path": "Drivetrain",
-          "fmt": { "len": 16, "max": 200, "min": -40, "sign": true, "div": 64, "unit": "celsius" },
-          "name": "Stator temperature"
-        }
-      ]
-    },
-    {
-      "hdr": "704",
-      "cmd": { "22": "2008" },
-      "freq": 5,
-      "signals": [
-        {
-          "id": "AIWAYS_MCU_T1",
-          "path": "Drivetrain",
-          "fmt": { "len": 16, "max": 200, "min": -40, "sign": true, "div": 64, "unit": "celsius" },
-          "name": "MCU temperature 1"
-        }
-      ]
-    },
-    {
-      "hdr": "704",
-      "cmd": { "22": "2009" },
-      "freq": 5,
-      "signals": [
-        {
-          "id": "AIWAYS_MCU_T2",
-          "path": "Drivetrain",
-          "fmt": { "len": 16, "max": 200, "min": -40, "sign": true, "div": 64, "unit": "celsius" },
-          "name": "MCU temperature 2"
-        }
-      ]
-    },
-    {
-      "hdr": "704",
-      "cmd": { "22": "200E" },
-      "freq": 1,
-      "signals": [
-        {
-          "id": "AIWAYS_CMD_TORQUE",
-          "path": "Drivetrain",
-          "fmt": { "len": 16, "max": 500, "min": -500, "sign": true, "div": 16, "unit": "newtonMeters" },
-          "name": "Commanded torque"
-        }
-      ]
-    },
-    {
-      "hdr": "704",
-      "cmd": { "22": "200F" },
-      "freq": 1,
-      "signals": [
-        {
-          "id": "AIWAYS_CMD_SPEED",
-          "path": "Drivetrain",
-          "fmt": { "len": 16, "max": 17000, "min": -17000, "sign": true, "unit": "rpm" },
-          "name": "Commanded motor speed"
-        }
-      ]
-    },
-    {
-      "hdr": "704",
-      "cmd": { "22": "2012" },
-      "freq": 1,
-      "signals": [
-        {
-          "id": "AIWAYS_AVAIL_TORQUE",
-          "path": "Drivetrain",
-          "fmt": { "len": 16, "max": 500, "min": 0, "div": 16, "unit": "newtonMeters" },
-          "name": "Available drive torque"
-        }
-      ]
-    }
-  ]
+{ "commands": [
+{ "hdr": "703", "cmd": {"22": "1000"}, "freq": 1,
+  "signals": [
+    {"id": "U5_HVB_MIN_CELL_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 5, "div": 1000, "add": 1, "unit": "volts" }, "name": "Minimum cell voltage"}
+  ]},
+{ "hdr": "703", "cmd": {"22": "1001"}, "freq": 1,
+  "signals": [
+    {"id": "U5_HVB_MAX_CELL_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 5, "div": 1000, "add": 1, "unit": "volts" }, "name": "Maximum cell voltage"}
+  ]},
+{ "hdr": "703", "cmd": {"22": "1002"}, "freq": 5,
+  "signals": [
+    {"id": "U5_HVB_MIN_CELL_T", "path": "Battery.Cells", "fmt": { "len": 8, "max": 100, "min": -40, "add": -40, "unit": "celsius" }, "name": "Minimum cell temperature"}
+  ]},
+{ "hdr": "703", "cmd": {"22": "1003"}, "freq": 5,
+  "signals": [
+    {"id": "U5_HVB_MAX_CELL_T", "path": "Battery.Cells", "fmt": { "len": 8, "max": 80, "min": -40, "add": -40, "unit": "celsius" }, "name": "Maximum cell temperature"}
+  ]},
+{ "hdr": "703", "cmd": {"22": "1004"}, "freq": 1,
+  "signals": [
+    {"id": "U5_HVB_V", "path": "Battery", "fmt": { "len": 16, "max": 500, "div": 10, "unit": "volts" }, "name": "High voltage battery pack voltage", "suggestedMetric": "tractionBatteryVoltage"}
+  ]},
+{ "hdr": "703", "cmd": {"22": "1005"}, "freq": 1,
+  "signals": [
+    {"id": "U5_HVB_C", "path": "Battery", "fmt": { "len": 16, "max": 500, "min": -500, "div": 10, "add": -700, "unit": "amps" }, "name": "High voltage battery current", "suggestedMetric": "tractionBatteryCurrent"}
+  ]},
+{ "hdr": "703", "cmd": {"22": "1006"}, "freq": 1,
+  "signals": [
+    {"id": "U5_SOC_DISP", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "State of charge, displayed", "suggestedMetric": "stateOfCharge"}
+  ]},
+{ "hdr": "703", "cmd": {"22": "1007"}, "freq": 1,
+  "signals": [
+    {"id": "U5_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "State of charge, actual", "suggestedMetric": "stateOfCharge"}
+  ]},
+{ "hdr": "703", "cmd": {"22": "1008"}, "freq": 1,
+  "signals": [
+    {"id": "U5_HVBAT_CELL_SOC_MIN", "path": "Battery.Cells", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Minimum cell state of charge"}
+  ]},
+{ "hdr": "703", "cmd": {"22": "1009"}, "freq": 1,
+  "signals": [
+    {"id": "U5_HVBAT_CELL_SOC_MAX", "path": "Battery.Cells", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Maximum cell state of charge"}
+  ]},
+{ "hdr": "703", "cmd": {"22": "1010"}, "freq": 3600,
+  "signals": [
+    {"id": "U5_SOH_ALT", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "State of health, alternative", "suggestedMetric": "stateOfHealth"}
+  ]},
+{ "hdr": "703", "cmd": {"22": "1012"}, "freq": 3600,
+  "signals": [
+    {"id": "U5_SOH", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "State of health", "suggestedMetric": "stateOfHealth"}
+  ]},
+{ "hdr": "703", "cmd": {"22": "101C"}, "freq": 5,
+  "signals": [
+    {"id": "U5_WATER_IN_T", "path": "Battery", "fmt": { "len": 8, "max": 100, "min": -40, "add": -40, "unit": "celsius" }, "name": "Water inlet temperature"}
+  ]},
+{ "hdr": "703", "cmd": {"22": "101D"}, "freq": 5,
+  "signals": [
+    {"id": "U5_WATER_OUT_T", "path": "Battery", "fmt": { "len": 8, "max": 100, "min": -40, "add": -40, "unit": "celsius" }, "name": "Water outlet temperature"}
+  ]},
+{ "hdr": "703", "cmd": {"22": "1020"}, "freq": 60,
+  "signals": [
+    {"id": "U5_ISO_RES", "path": "Battery", "fmt": { "len": 16, "max": 10000, "unit": "kiloohms" }, "name": "Insulation resistance"}
+  ]},
+{ "hdr": "703", "cmd": {"22": "1031"}, "freq": 1,
+  "signals": [
+    {"id": "U5_MAX_CELL_V_NUM", "path": "Battery.Cells", "fmt": { "len": 8, "max": 96, "add": 1, "unit": "scalar" }, "name": "Max cell voltage number"}
+  ]},
+{ "hdr": "703", "dbg": true, "cmd": {"22": "1202"}, "freq": 1,
+  "signals": [
+    {"id": "U5_HVB_MAX_CELL_ID", "path": "Battery.Cells", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Maximum cell cell state of charge id"},
+    {"id": "U5_HVB_MIN_CELL_ID", "path": "Battery.Cells", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Minimum cell cell state of charge id"}
+  ]},
+{ "hdr": "703", "dbg": true, "cmd": {"22": "1203"}, "freq": 1,
+  "signals": [
+    {"id": "U5_HVB__MAX_CELL_T", "path": "Engine.Cells", "fmt": { "len": 8, "max": 256, "min": 1, "add": 1, "unit": "scalar" }, "name": "Maximum cell temperature id"}
+  ]},
+{ "hdr": "703", "cmd": {"22": "DF00"}, "freq": 1,
+  "signals": [
+    {"id": "U5_VSS", "path": "Movement", "fmt": { "len": 16, "max": 200, "mul": 9, "div": 160, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
+  ]},
+{ "hdr": "703", "cmd": {"22": "DF05"}, "freq": 3600,
+  "signals": [
+    {"id": "U5_ODO", "path": "Stats", "fmt": { "len": 24, "max": 1000000, "div": 10, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "704", "cmd": {"22": "2003"}, "freq": 1,
+  "signals": [
+    {"id": "U5_MOTOR_RPM", "path": "Drivetrain", "fmt": { "len": 16, "max": 15000, "min": -15000, "sign": true, "unit": "rpm" }, "name": "Actual motor speed"}
+  ]},
+{ "hdr": "704", "cmd": {"22": "2004"}, "freq": 1,
+  "signals": [
+    {"id": "U5_TORQUE", "path": "Drivetrain", "fmt": { "len": 16, "max": 500, "min": -500, "div": 16, "sign": true, "unit": "newtonMeters" }, "name": "Torque"}
+  ]},
+{ "hdr": "704", "cmd": {"22": "2007"}, "freq": 5,
+  "signals": [
+    {"id": "U5_STATOR_T", "path": "Drivetrain", "fmt": { "len": 16, "max": 200, "min": -40, "div": 64, "sign": true, "unit": "celsius" }, "name": "Stator temperature"}
+  ]},
+{ "hdr": "704", "cmd": {"22": "2008"}, "freq": 5,
+  "signals": [
+    {"id": "U5_MCU_T1", "path": "Drivetrain", "fmt": { "len": 16, "max": 200, "min": -40, "div": 64, "sign": true, "unit": "celsius" }, "name": "MCU temperature 1"}
+  ]},
+{ "hdr": "704", "cmd": {"22": "2009"}, "freq": 5,
+  "signals": [
+    {"id": "U5_MCU_T2", "path": "Drivetrain", "fmt": { "len": 16, "max": 200, "min": -40, "div": 64, "sign": true, "unit": "celsius" }, "name": "MCU temperature 2"}
+  ]},
+{ "hdr": "704", "cmd": {"22": "200E"}, "freq": 1,
+  "signals": [
+    {"id": "U5_CMD_TORQUE", "path": "Drivetrain", "fmt": { "len": 16, "max": 500, "min": -500, "div": 16, "sign": true, "unit": "newtonMeters" }, "name": "Commanded torque"}
+  ]},
+{ "hdr": "704", "cmd": {"22": "200F"}, "freq": 1,
+  "signals": [
+    {"id": "U5_CMD_SPEED", "path": "Drivetrain", "fmt": { "len": 16, "max": 17000, "min": -17000, "sign": true, "unit": "rpm" }, "name": "Commanded motor speed"}
+  ]},
+{ "hdr": "704", "cmd": {"22": "2012"}, "freq": 1,
+  "signals": [
+    {"id": "U5_AVAIL_TORQUE", "path": "Drivetrain", "fmt": { "len": 16, "max": 500, "div": 16, "unit": "newtonMeters" }, "name": "Available drive torque"}
+  ]}
+]
 }

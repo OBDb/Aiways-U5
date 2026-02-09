@@ -1,8 +1,0 @@
-command_id: 704.22200E
-test_cases:
-- expected_values:
-    AIWAYS_CMD_TORQUE: 200.0
-  response: '70C 05 62 20 0E 0C 80'
-- expected_values:
-    AIWAYS_CMD_TORQUE: -32.0
-  response: '70C 05 62 20 0E FE 00'

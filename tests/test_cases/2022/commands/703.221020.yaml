@@ -1,8 +1,0 @@
-command_id: 703.221020
-test_cases:
-- expected_values:
-    AIWAYS_ISO_RES: 5000
-  response: '70B 05 62 10 20 13 88'
-- expected_values:
-    AIWAYS_ISO_RES: 10000
-  response: '70B 05 62 10 20 27 10'

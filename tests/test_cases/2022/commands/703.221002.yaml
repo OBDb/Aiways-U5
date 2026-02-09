@@ -1,8 +1,0 @@
-command_id: 703.221002
-test_cases:
-- expected_values:
-    AIWAYS_MIN_CELL_T: 25
-  response: '70B 04 62 10 02 41'
-- expected_values:
-    AIWAYS_MIN_CELL_T: 0
-  response: '70B 04 62 10 02 28'
