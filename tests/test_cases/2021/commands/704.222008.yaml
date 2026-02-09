@@ -1,0 +1,14 @@
+command_id: '704.222008'
+test_cases:
+- expected_values:
+    U5_MCU_T1: 27.375
+  response: 70C0562200806D8
+- expected_values:
+    U5_MCU_T1: 27.625
+  response: 70C0562200806E8
+- expected_values:
+    U5_MCU_T1: 27.8125
+  response: 70C0562200806F4
+- expected_values:
+    U5_MCU_T1: 27.95312
+  response: 70C0562200806FD

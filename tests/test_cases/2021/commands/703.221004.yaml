@@ -1,0 +1,14 @@
+command_id: '703.221004'
+test_cases:
+- expected_values:
+    U5_HVB_V: 392.9
+  response: 70B056210040F59
+- expected_values:
+    U5_HVB_V: 393.1
+  response: 70B056210040F5B
+- expected_values:
+    U5_HVB_V: 393.2
+  response: 70B056210040F5C
+- expected_values:
+    U5_HVB_V: 393.4
+  response: 70B056210040F5E
