@@ -1,0 +1,5 @@
+command_id: '703.221008'
+test_cases:
+- expected_values:
+    U5_HVBAT_CELL_SOC_MIN: 83
+  response: 70B0462100853
