@@ -1,0 +1,14 @@
+command_id: '703.221008'
+test_cases:
+- expected_values:
+    U5_HVBAT_CELL_SOC_MIN: 75
+  response: 70B046210084B
+- expected_values:
+    U5_HVBAT_CELL_SOC_MIN: 76
+  response: 70B046210084C
+- expected_values:
+    U5_HVBAT_CELL_SOC_MIN: 77
+  response: 70B046210084D
+- expected_values:
+    U5_HVBAT_CELL_SOC_MIN: 83
+  response: 70B0462100853

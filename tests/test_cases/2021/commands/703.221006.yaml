@@ -1,0 +1,14 @@
+command_id: '703.221006'
+test_cases:
+- expected_values:
+    U5_SOC_DISP: 77
+  response: 70B046210064D
+- expected_values:
+    U5_SOC_DISP: 78
+  response: 70B046210064E
+- expected_values:
+    U5_SOC_DISP: 79
+  response: 70B046210064F
+- expected_values:
+    U5_SOC_DISP: 86
+  response: 70B0462100656
