@@ -1,0 +1,17 @@
+command_id: 703.22DF05
+test_cases:
+- expected_values:
+    U5_ODO: 43418.3
+  response: 70B0662DF0506A007
+- expected_values:
+    U5_ODO: 43428.8
+  response: 70B0662DF0506A070
+- expected_values:
+    U5_ODO: 43430.4
+  response: 70B0662DF0506A080
+- expected_values:
+    U5_ODO: 43430.5
+  response: 70B0662DF0506A081
+- expected_values:
+    U5_ODO: 43432.3
+  response: 70B0662DF0506A093

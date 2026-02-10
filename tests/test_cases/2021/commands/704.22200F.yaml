@@ -1,0 +1,5 @@
+command_id: 704.22200F
+test_cases:
+- expected_values:
+    U5_CMD_SPEED: 0
+  response: 70C0562200F0000

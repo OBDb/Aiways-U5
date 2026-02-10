@@ -1,0 +1,5 @@
+command_id: 7E0.011C
+test_cases:
+- expected_values:
+    OBDSUP: CN-OBD-6
+  response: 7E803411C29

@@ -1,0 +1,11 @@
+command_id: '704.222003'
+test_cases:
+- expected_values:
+    U5_MOTOR_RPM: 0
+  response: 70C056220030000
+- expected_values:
+    U5_MOTOR_RPM: -194
+  response: 70C05622003FF3E
+- expected_values:
+    U5_MOTOR_RPM: -1
+  response: 70C05622003FFFF
