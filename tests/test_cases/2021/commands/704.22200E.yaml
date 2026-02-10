@@ -1,0 +1,11 @@
+command_id: 704.22200E
+test_cases:
+- expected_values:
+    U5_CMD_TORQUE: 0
+  response: 70C0562200E0000
+- expected_values:
+    U5_CMD_TORQUE: 47
+  response: 70C0562200E02F0
+- expected_values:
+    U5_CMD_TORQUE: -9
+  response: 70C0562200EFF70

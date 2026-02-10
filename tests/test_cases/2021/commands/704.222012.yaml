@@ -1,0 +1,11 @@
+command_id: '704.222012'
+test_cases:
+- expected_values:
+    U5_AVAIL_TORQUE: 0
+  response: 70C056220120000
+- expected_values:
+    U5_AVAIL_TORQUE: 319.9375
+  response: 70C0562201213FF
+- expected_values:
+    U5_AVAIL_TORQUE: 500
+  response: 70C05622012FFFE
