@@ -1,6 +1,9 @@
 command_id: '703.221007'
 test_cases:
 - expected_values:
+    U5_SOC: 62
+  response: 70B046210073E
+- expected_values:
     U5_SOC: 75
   response: 70B046210074B
 - expected_values:
