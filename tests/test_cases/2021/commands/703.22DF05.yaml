@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     U5_ODO: 43432.3
   response: 70B0662DF0506A093
+- expected_values:
+    U5_ODO: 43448.8
+  response: 70B0662DF0506A138

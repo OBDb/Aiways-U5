@@ -1,8 +1,8 @@
 command_id: '703.221000'
 test_cases:
 - expected_values:
-    U5_HVB_MIN_CELL_V: 4.931
-  response: 70B056210000F5B
+    U5_HVB_MIN_CELL_V: 4.833
+  response: 70B056210000EF9
 - expected_values:
     U5_HVB_MIN_CELL_V: 5
   response: 70B056210000FFE

@@ -1,8 +1,8 @@
 command_id: '703.221004'
 test_cases:
 - expected_values:
-    U5_HVB_V: 380.7
-  response: 70B056210040EDF
+    U5_HVB_V: 367.5
+  response: 70B056210040E5B
 - expected_values:
     U5_HVB_V: 383.7
   response: 70B056210040EFD
