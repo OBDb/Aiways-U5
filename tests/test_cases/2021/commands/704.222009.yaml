@@ -1,8 +1,8 @@
 command_id: '704.222009'
 test_cases:
 - expected_values:
-    U5_MCU_T2: 31.79688
-  response: 70C0562200907F3
+    U5_MCU_T2: 22.35938
+  response: 70C056220090597
 - expected_values:
     U5_MCU_T2: 35.95312
   response: 70C0562200908FD

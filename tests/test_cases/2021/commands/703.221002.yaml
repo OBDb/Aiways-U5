@@ -1,6 +1,9 @@
 command_id: '703.221002'
 test_cases:
 - expected_values:
+    U5_HVB_MIN_CELL_T: 15
+  response: 70B0462100237
+- expected_values:
     U5_HVB_MIN_CELL_T: 20
   response: 70B046210023C
 - expected_values:

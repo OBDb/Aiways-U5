@@ -1,6 +1,12 @@
 command_id: '703.221003'
 test_cases:
 - expected_values:
+    U5_HVB_MAX_CELL_T: 15
+  response: 70B0462100337
+- expected_values:
+    U5_HVB_MAX_CELL_T: 16
+  response: 70B0462100338
+- expected_values:
     U5_HVB_MAX_CELL_T: 20
   response: 70B046210033C
 - expected_values:
