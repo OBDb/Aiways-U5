@@ -1,0 +1,5 @@
+command_id: '703.221203'
+test_cases:
+- expected_values:
+    U5_HVB__MAX_CELL_T: 1
+  response: 70B056212030000

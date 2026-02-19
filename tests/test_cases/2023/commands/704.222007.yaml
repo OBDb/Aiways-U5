@@ -1,0 +1,11 @@
+command_id: '704.222007'
+test_cases:
+- expected_values:
+    U5_STATOR_T: 0.89062
+  response: 70C056220070039
+- expected_values:
+    U5_STATOR_T: 1.01562
+  response: 70C056220070041
+- expected_values:
+    U5_STATOR_T: 1.14062
+  response: 70C056220070049

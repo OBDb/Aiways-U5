@@ -1,0 +1,11 @@
+command_id: '703.221005'
+test_cases:
+- expected_values:
+    U5_HVB_C: 5.6
+  response: 70B056210051B90
+- expected_values:
+    U5_HVB_C: 6.6
+  response: 70B056210051B9A
+- expected_values:
+    U5_HVB_C: 7.4
+  response: 70B056210051BA2

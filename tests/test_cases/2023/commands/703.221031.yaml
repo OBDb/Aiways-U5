@@ -1,0 +1,8 @@
+command_id: '703.221031'
+test_cases:
+- expected_values:
+    U5_MAX_CELL_V_NUM: 63
+  response: 70B046210313E
+- expected_values:
+    U5_MAX_CELL_V_NUM: 76
+  response: 70B046210314B

@@ -1,0 +1,5 @@
+command_id: '703.221010'
+test_cases:
+- expected_values:
+    U5_SOH_ALT: 91.2
+  response: 70B056210100390

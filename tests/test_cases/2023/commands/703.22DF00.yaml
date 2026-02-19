@@ -1,0 +1,5 @@
+command_id: 703.22DF00
+test_cases:
+- expected_values:
+    U5_VSS: 0
+  response: 70B0562DF000000

@@ -1,0 +1,6 @@
+command_id: '703.221202'
+test_cases:
+- expected_values:
+    U5_HVB_MAX_CELL_ID: 0
+    U5_HVB_MIN_CELL_ID: 0
+  response: 70B056212020000

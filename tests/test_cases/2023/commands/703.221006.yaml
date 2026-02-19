@@ -1,0 +1,5 @@
+command_id: '703.221006'
+test_cases:
+- expected_values:
+    U5_SOC_DISP: 80
+  response: 70B0462100650
