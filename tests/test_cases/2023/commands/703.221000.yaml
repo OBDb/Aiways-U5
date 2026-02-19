@@ -1,0 +1,14 @@
+command_id: '703.221000'
+test_cases:
+- expected_values:
+    U5_HVB_MIN_CELL_V: 5
+  response: 70B056210000FA2
+- expected_values:
+    U5_HVB_MIN_CELL_V: 5
+  response: 70B056210000FA3
+- expected_values:
+    U5_HVB_MIN_CELL_V: 5
+  response: 70B056210000FA5
+- expected_values:
+    U5_HVB_MIN_CELL_V: 5
+  response: 70B056210000FA8

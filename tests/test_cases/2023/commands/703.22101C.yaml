@@ -1,0 +1,5 @@
+command_id: 703.22101C
+test_cases:
+- expected_values:
+    U5_WATER_IN_T: -2
+  response: 70B0462101C26

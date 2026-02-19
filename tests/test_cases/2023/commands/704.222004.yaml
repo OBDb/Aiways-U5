@@ -1,0 +1,8 @@
+command_id: '704.222004'
+test_cases:
+- expected_values:
+    U5_TORQUE: 0
+  response: 70C056220040000
+- expected_values:
+    U5_TORQUE: 0.0625
+  response: 70C056220040001

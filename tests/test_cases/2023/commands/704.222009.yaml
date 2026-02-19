@@ -1,0 +1,8 @@
+command_id: '704.222009'
+test_cases:
+- expected_values:
+    U5_MCU_T2: 0.42188
+  response: 70C05622009001B
+- expected_values:
+    U5_MCU_T2: 0.4375
+  response: 70C05622009001C
